@@ -1,0 +1,9 @@
+# Council Forge — Python dependencies
+# Install only the provider(s) you'll actually use
+
+# Anthropic Claude (recommended)
+anthropic>=0.40.0
+
+# Optional providers — uncomment what you need
+# openai>=1.50.0
+# google-genai>=0.3.0
