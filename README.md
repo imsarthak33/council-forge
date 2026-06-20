@@ -42,18 +42,29 @@ Council Forge uses **expertise diversity** for signal amplification. Same idea t
 
 ## Quick Start
 
-### Option 1: Use it as a Claude skill (no setup)
+### Option 1: Install as a Claude Code skill (one command)
 
-Drop `SKILL.md` into your Claude project. Then in Claude:
+```bash
+curl -fsSL https://raw.githubusercontent.com/council-forge/council-forge/main/install.sh | bash
+```
+
+This installs to `~/.claude/skills/council-forge` (available in every project). Add `-- --project`
+to install only into the current repo's `.claude/skills/` instead, or `-- --uninstall` to remove it.
+Already have the repo cloned? Run `./install.sh` from inside it — same script, no network needed.
 
 ```
-"Convene a council to review my Series A pitch for a cybersecurity startup"
+"give me a council on whether to launch this fintech product in India"
 
-→ Claude reads SKILL.md, runs Phase 0 intake (asks about domain, stakes, context),
+→ Claude Code reads SKILL.md, runs Phase 0 intake (asks about domain, stakes, context),
   generates 5-7 specialized experts, runs the 4-stage debate, and delivers the verdict.
 ```
 
-### Option 2: Run programmatically via Python
+### Option 2: Manual install / other Claude products
+
+Copy the `council-forge/` folder (everything in this repo) into your skills directory —
+`~/.claude/skills/council-forge/` for Claude Code, or upload it as a Skill in claude.ai/the API.
+
+### Option 3: Run programmatically via Python
 
 ```bash
 git clone https://github.com/yourname/council-forge
@@ -76,7 +87,7 @@ python scripts/council_engine.py \
   --query "FDA pathway for our Phase 2-ready oncology asset"
 ```
 
-### Option 3: Use any LLM provider
+### Option 4: Use any LLM provider
 
 ```bash
 # Claude (default)
@@ -199,7 +210,9 @@ See `references/personas-design.md` for the detailed guide.
 
 | File | What it covers |
 |------|----------------|
-| `SKILL.md` | Main skill definition + execution protocol |
+| `SKILL.md` | Main skill definition + execution protocol (kept lean — loads into context on every trigger) |
+| `install.sh` | One-command installer for Claude Code (personal or project scope) |
+| `references/protocol-templates.md` | Exact output format for every phase (loaded on demand) |
 | `references/architecture.md` | Why the 5-phase protocol is engineered this way |
 | `references/personas-design.md` | How to craft experts that genuinely disagree |
 | `references/chairman-protocol.md` | Synthesis algorithms in detail |
