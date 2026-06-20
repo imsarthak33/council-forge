@@ -9,22 +9,20 @@
 A weak persona is a job title. A strong persona has three layers:
 
 ### Layer 1: IDENTITY (the surface)
-- Name (culturally grounded to the domain)
-- Title (industry-specific vernacular)
-- Affiliations (real institutions, real companies)
-- Tenure (15-20 years is the sweet spot — deep enough to have priors)
+- Must be a **real, living person** found via web search.
+- Name and Title (exactly as they appear in public).
+- Affiliations (their real institutions and companies).
+- Source URL (the primary link where you found their thoughts, e.g., an interview or tweet).
 
 ### Layer 2: KNOWLEDGE (the substance)
-- 8-15 specific facts this expert would know
-- Real regulations, exact percentages, named frameworks
-- Industry-specific jargon used correctly
-- Historical cases they would reference
+- 8-15 specific facts, quotes, or frameworks directly extracted from their public statements.
+- Real regulations or numbers they actually cited.
+- Industry-specific jargon they used in their writing.
 
 ### Layer 3: WORLDVIEW (the soul)
-- What this expert always emphasizes
-- What this expert systematically dismisses
-- Their typical conclusion pattern
-- Their bias (every expert has one — name it explicitly)
+- What this specific person always emphasizes in their public debates.
+- What they systematically dismiss or criticize.
+- Their explicit bias, derived from their actual public stance.
 
 ---
 
@@ -102,14 +100,13 @@ Use these as starting points. Each has a signature stance, knowledge pattern, an
 
 When building a new expert, verify:
 
-- [ ] Name is realistic AND culturally appropriate to the domain context
-- [ ] Title uses correct industry vernacular (not generic "expert")
-- [ ] Tenure is 12-20 years (not "junior" or "world's greatest")
-- [ ] Knowledge base contains 8+ domain-specific facts no other expert in the council has
-- [ ] Worldview is articulated as a one-sentence stance
-- [ ] Bias is explicitly named (every expert has blind spots)
-- [ ] Bottom line pattern is defined (their typical verdict shape)
-- [ ] At least one OTHER expert in the council is positioned to disagree with this one
+- [ ] Expert is a REAL person verified via web search, not a hallucinated synthetic persona.
+- [ ] Name and Title exactly match their public profile.
+- [ ] Contains a Source URL proving their existence and statements.
+- [ ] Knowledge base contains 8+ domain-specific facts directly sourced from their writing or interviews.
+- [ ] Worldview is articulated based on their actual public stance.
+- [ ] Bias is explicitly named based on their stated opinions.
+- [ ] At least one OTHER expert in the council is positioned to disagree with this one.
 
 If you can't identify another expert this persona would clash with, the persona isn't sharp enough.
 

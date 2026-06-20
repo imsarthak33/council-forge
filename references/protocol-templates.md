@@ -39,12 +39,12 @@ Before I convene the council, I need to understand:
 ```
 COUNCIL ASSEMBLED for: [domain]
 
-👤 [Name 1] — [Title 1]      [Archetype: DOMAIN_SCIENTIST]
-👤 [Name 2] — [Title 2]      [Archetype: OPERATOR]
-👤 [Name 3] — [Title 3]      [Archetype: REGULATOR]
-👤 [Name 4] — [Title 4]      [Archetype: STRATEGIST]
-👤 [Name 5] — [Title 5]      [Archetype: FINANCIER]
-👤 [Name 6] — [Title 6]      [Archetype: CONTRARIAN]
+👤 [Name 1] — [Title 1]      [Archetype: DOMAIN_SCIENTIST]  |  🔗 [Source URL]
+👤 [Name 2] — [Title 2]      [Archetype: OPERATOR]          |  🔗 [Source URL]
+👤 [Name 3] — [Title 3]      [Archetype: REGULATOR]         |  🔗 [Source URL]
+👤 [Name 4] — [Title 4]      [Archetype: STRATEGIST]        |  🔗 [Source URL]
+👤 [Name 5] — [Title 5]      [Archetype: FINANCIER]         |  🔗 [Source URL]
+👤 [Name 6] — [Title 6]      [Archetype: CONTRARIAN]        |  🔗 [Source URL]
 🏛️ Chairman — [Synthesis specialist for this domain]
 
 Proceed? (Or specify changes to the panel.)

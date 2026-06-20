@@ -19,7 +19,7 @@ table: `README.md`.
 
 ## Execution protocol
 
-Five phases, each mandatory unless the user explicitly skips it. Exact output formats for every
+Five phases (plus a live research step), each mandatory unless the user explicitly skips it. Exact output formats for every
 phase are in `references/protocol-templates.md` — read it before Phase 0 and follow the formats
 precisely.
 
@@ -27,25 +27,21 @@ precisely.
    message. Do not proceed until DOMAIN + DECISION TYPE + STAKES are answered. If the user pushes
    back ("just do it"), proceed with explicit assumptions logged instead.
 
-2. **Council architecture.** Construct 5-7 personas from the 7 meta-archetypes — DOMAIN_SCIENTIST,
-   OPERATOR, REGULATOR, STRATEGIST, FINANCIER, CONTRARIAN, CUSTOMER_VOICE — choosing whichever
-   subset fits the domain. Each persona needs a name, title, 15-20yr background, 8-15 specific
-   domain facts, a debate style, and a bottom-line pattern. Construction details: `references/personas-design.md`.
-   Present the roster and wait for confirmation before continuing (skip the wait if the user already said "just do it").
+2. **Live Expert Research.** BEFORE generating personas, you MUST use your built-in web search tools (or URL readers) to identify 5-7 REAL, living experts in this specific domain. Search for their recent interviews, publications, or public stances. Do NOT hallucinate synthetic experts.
 
-3. **Stage 1 — independent positions.** Each expert answers in total isolation: no expert may
-   reference another's analysis at this stage. If a response starts drifting toward "as the other
-   experts noted," stop — that's contamination. Run every expert, none skipped.
+3. **Council architecture.** Construct the 5-7 personas based ENTIRELY on the real experts you just researched. Map them to the closest meta-archetype — DOMAIN_SCIENTIST, OPERATOR, REGULATOR, STRATEGIST, FINANCIER, CONTRARIAN, CUSTOMER_VOICE. Each persona needs their actual name, real title, and 8-15 factual nuggets synthesized from their real public worldview. Construction details: `references/personas-design.md`. Present the roster (including source URLs) and wait for confirmation before continuing (skip the wait if the user already said "just do it").
 
-4. **Stage 2 — adversarial cross-examination.** Each expert reads the others, presented anonymized
-   as Analyst A/B/C... Real disagreements must be escalated explicitly, never smoothed over for
-   politeness. The Chairman resolves disputes later, not the experts here.
+4. **Stage 1 — independent positions.** Each expert answers in total isolation: no expert may
+   reference another's analysis at this stage. Synthesize their public worldview into their own voice for the debate. Run every expert, none skipped.
 
-5. **Stage 3 — Devil's Advocate.** One expert (selection rule in `protocol-templates.md`) steelmans
+5. **Stage 2 — adversarial cross-examination.** Each expert reads the others, presented anonymized
+   as Analyst A/B/C... Real disagreements must be escalated explicitly, never smoothed over. 
+
+6. **Stage 3 — Devil's Advocate.** One expert (selection rule in `protocol-templates.md`) steelmans
    the opposite conclusion, diagnoses the council's groupthink, and names the most likely
    catastrophic failure mode.
 
-6. **Stage 4 — Chairman's verdict.** Synthesizes every prior stage. Domain-authority weighting, not
+7. **Stage 4 — Chairman's verdict.** Synthesizes every prior stage. Domain-authority weighting, not
    averaging: a lone domain-relevant expert can outweigh a majority outside their domain. Full
    authority matrix and synthesis rules: `references/chairman-protocol.md`.
 
