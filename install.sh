@@ -5,7 +5,7 @@
 # Installs the council-forge skill into Claude Code (personal or project scope).
 #
 # Usage:
-#   curl -fsSL https://raw.githubusercontent.com/<org>/council-forge/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/imsarthak33/council-forge/main/install.sh | bash
 #   curl -fsSL .../install.sh | bash -s -- --project
 #   ./install.sh                 # run locally from a cloned repo
 #   ./install.sh --uninstall
@@ -28,7 +28,7 @@ set -euo pipefail
 # ---------------------------------------------------------------------------
 
 SKILL_NAME="council-forge"
-REPO_URL="${COUNCIL_FORGE_REPO:-https://github.com/council-forge/council-forge.git}"
+REPO_URL="${COUNCIL_FORGE_REPO:-https://github.com/imsarthak33/council-forge.git}"
 REPO_BRANCH="${COUNCIL_FORGE_BRANCH:-main}"
 
 SCOPE="personal"
@@ -64,7 +64,7 @@ Council Forge — installer
 Installs the council-forge skill into Claude Code (personal or project scope).
 
 Usage:
-  curl -fsSL https://raw.githubusercontent.com/<org>/council-forge/main/install.sh | bash
+  curl -fsSL https://raw.githubusercontent.com/imsarthak33/council-forge/main/install.sh | bash
   curl -fsSL .../install.sh | bash -s -- --project
   ./install.sh                 # run locally from a cloned repo
   ./install.sh --uninstall

@@ -45,7 +45,11 @@ Council Forge uses **expertise diversity** for signal amplification. Same idea t
 ### Option 1: Install as a Claude Code skill (one command)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/council-forge/council-forge/main/install.sh | bash
+# macOS / Linux
+curl -fsSL https://raw.githubusercontent.com/imsarthak33/council-forge/main/install.sh | bash
+
+# Windows PowerShell
+irm https://raw.githubusercontent.com/imsarthak33/council-forge/main/install.ps1 | iex
 ```
 
 This installs to `~/.claude/skills/council-forge` (available in every project). Add `-- --project`
